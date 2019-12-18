@@ -200,13 +200,12 @@ class GifDialogState extends State<FancyDialog> with TickerProviderStateMixin {
                       child: Container(
                         width: dwidth,
                         margin: EdgeInsets.only(left: 1),
-                        height: 0.28 * dheight,
                         child: Text(
                           descreption,
                           style:
-                              TextStyle(color: Colors.grey[600], fontSize: 15),
+                              TextStyle(color: Colors.grey[600], fontSize: 12),
                           textAlign: TextAlign.left,
-                          maxLines: 4,
+                          maxLines: 7,
                           overflow: TextOverflow.ellipsis,
                         ),
                       )),
